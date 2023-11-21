@@ -1,0 +1,54 @@
+body{
+    height: 2000px;
+    background: aliceblue!important;
+}
+
+.bg-image {
+    background-image: url('http://cdn.wallpaperjam.com/3b882355f86c7f28af27795a4444a5ae48fae952/cityscapes-post-apocalyptic-architecture-buildings.jpg');
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        height: 450px;
+    }
+}
+
+.block1{
+    padding: 10%;
+}
+
+@media (max-width: 500px) {
+    .block1{
+        padding: 20%;
+    }
+}
+
+.block2>h4{
+    color: brown;
+}
+
+.block2{
+    color: aliceblue;
+}
+
+.bg-image1 {
+    background-image: url('https://phonoteka.org/uploads/posts/2022-02/1644314520_67-phonoteka-org-p-ruini-fon-75.jpg');
+}
+
+.bg-image,.bg-image1{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+/*Дизайн формы*/
+.main-form{
+    width: 500px;
+}
